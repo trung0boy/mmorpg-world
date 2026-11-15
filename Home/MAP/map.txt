@@ -1,0 +1,298 @@
+1-Thành phố:
+	Thành phố khởi đầu:
+2-Đồng cỏ xanh:
+3-Rừng rậm:
+4-Xa mạc:
+5-Tuyết:
+6-Bãi biển:
+7-Đảo:
+8-Đảo bay:
+9-Thành phố cổ đại:
+10-Rừng pha lê:
+11-Thung lũng xương mù:
+12-Thảo nguyên bào tử (hồm tím neon):
+13-rừng nấm
+
+//chi tiết
+
+1. Thành Quốc Valoria – Cổng Khởi Nguyên (Thành phố khởi đầu)
+Gồm 7 khu vực chính:
+
+Quảng Trường Triệu Hồi: Nơi đặt vòng tròn ma pháp trung tâm, điểm xuất hiện của các lữ khách từ thế giới khác.   
+
+Đền Thờ Nữ Thần: Nơi làm lễ nhận lớp nhân vật (class) và kiểm tra chỉ số ban đầu.
+
+Hội Mạo Hiểm Giả (Guild): Trụ sở nhận nhiệm vụ, đăng ký cấp bậc và giao lưu giữa các lữ khách.
+
+Khu Chợ Sầm Uất: Nơi buôn bán vũ khí, giáp trụ, dược phẩm và nguyên liệu sơ khai.
+
+Phố Thợ Rèn: Khu vực lò rèn của các thợ cả lùn và con người, nơi nâng cấp trang bị.
+
+Khu Trọ Lữ Khách: Nơi nghỉ ngơi, lưu trú và hồi phục thể lực an toàn cho người mới.
+
+Tường Thành & Cổng Tây: Điểm kiểm soát ra vào, nối liền thành phố với vùng đồng cỏ bên ngoài.
+
+
+
+2. Đồng Cỏ Zephyria – Thảo Nguyên Gió Hát (Đồng cỏ xanh)
+Gồm 8 khu vực chính:
+
+Bãi Cỏ Slime: Vùng đồi thấp bằng phẳng, nơi sinh sống của các đàn Slime cấp thấp.
+
+Gò Gió Hú: Đồi lộng gió có những cột đá cổ phát ra âm thanh vi vu khi có gió lớn.
+
+Trang Trại Ven Đô: Khu vực chăn nuôi thú cưỡi (như bò sừng xoắn, ngựa gió) của dân làng bản địa.
+
+Suối Nước Trong: Con suối nhỏ chảy qua thảo nguyên, điểm cung cấp nước ngọt và câu cá.
+
+Rặng Cổ Thụ Đơn Cô: Nơi đứng sừng sững của những cây thụ tinh già, thường có quái vật nhỏ ẩn nấp bóng râm.
+
+Hang Thỏ Đất: Mạng lưới hang ngầm nông do loài thỏ sừng nhọn đào bới.
+
+Trạm Gác Tiền Sơ: Chốt canh gác của lính gác thành phố để bảo vệ thương nhân qua lại.
+
+Cánh Đồng Hoa Dại Mê Hoặc: Thảm hoa màu sắc rực rỡ nhưng chứa phấn hoa gây buồn ngủ nếu ở lâu.
+
+
+
+3. Đại Ngàn Sylvanas – Mê Cung Xanh (Rừng rậm)
+Gồm 9 khu vực chính:
+
+Bìa Rừng Bóng Râm: Ranh giới chuyển tiếp từ thảo nguyên vào rừng, cây cối bắt đầu rậm rạp hơn.
+
+Làng Tộc Elf Tinh Linh: Ngôi làng trên cây ẩn giấu sâu trong tán lá của những cây đại thụ ngàn năm.
+
+Đầm Lầy Rêu Đen: Vùng đất trũng ngập nước, bùn lầy và rêu độc bủa vây lối đi.
+
+Mê Cung Dây Leo: Khu vực có các bức tường dây leo sống di chuyển liên tục dễ làm lạc hướng.
+
+Hồ Nước Thiêng Dryad: Hồ nước trong vắt được bảo vệ bởi các linh hồn tự nhiên (Dryad).
+
+Hang Nhện Độc: Hệ thống hang đá ẩm thấp, giăng đầy tơ nhện khổng lồ.
+
+Đền Thờ Mục Nát: Phế tích đền thờ thần rừng cũ bị rễ cây đâm xuyên qua và phá hủy.
+
+Khu Vực Săn Bắn Của Thú Vương: Lãnh địa của những con sói bạc và báo đốm ma thuật.
+
+Cây Thế Giới Thu Nhỏ: Gốc cây khổng lồ trung tâm khu rừng, nơi tập trung linh khí nguyên thủy.
+
+
+
+
+4. Sa Mạc Hỏa Diệm Solaria – Biển Cát Cháy (Sa mạc)
+Gồm 8 khu vực chính:
+
+Cồn Cát Vọng Âm: Biển cát vàng trải dài vô tận, nơi những cơn gió tạo ra tiếng hú kỳ lạ như tiếng người gọi.
+
+Ổ Bọ Cạp Tinh Thể: Vùng đất cằn cỗi dưới chân các mỏm đá, nơi bọ cạp vỏ hồng ngọc ẩn nấp.
+
+Ốаsıs L(ạ)c Lối: Hồ nước ngọt nhỏ giữa sa mạc nhưng bị bao quanh bởi thực vật ăn thịt giả dạng.
+
+Thung Lũng Xương Khô: Bãi chiến trường cổ xưa, rải rác xương của những sinh vật khổng lồ và xác ướp chiến binh.
+
+Hẻm Núi Đỏ Bazan: Những vách đá dựng đứng màu đỏ rực, hấp thụ nhiệt cực mạnh vào ban ngày.
+
+Thành Phố Ngầm Bị Chôn Vùi: Tàn tích một đô thị cổ sa mạc nằm ẩn dưới lớp cát dày hàng mét.
+
+Bão Cát Vĩnh Cửu: Vùng biên giới của sa mạc luôn cuồn cuộn những trận cuồng phong cát đen nguy hiểm.
+
+Mỏ Quặng Nóng Chảy: Nơi các mạch dung nham ngầm nông nứt ra trên mặt đất, sản sinh nguyên liệu hiếm.
+
+5. Lãnh Nguyên Frostpeak – Vương Quốc Băng Giá (Tuyết)
+Gồm 8 khu vực chính:
+
+Trạm Dừng Chân Dưới Núi: Cửa ngõ leo núi, nơi các lữ khách mua trang phục chống rét.
+
+Sườn Núi Bão Tuyết: Con đường dốc đứng liên tục bị các trận cuồng phong tuyết quét qua.
+
+Hang Động Băng Xanh: Hệ thống hang động có các cột băng trong suốt phản chiếu ánh sáng kỳ ảo.
+
+Hồ Băng Nứt: Mặt hồ đóng băng dày nhưng có nhiều điểm yếu dễ sụt xuống vực sâu.
+
+Lò Rèn Người Lùn Núi Đá: Xưởng chế tạo ngầm trong lòng núi, ấm áp nhờ nhiệt lượng từ tâm địa cầu.
+
+Thung Lũng Rồng Băng: Vực sâu hiểm trở, nơi loài rồng băng nguyên thủy làm ổ.
+
+Cung Điện Băng Tinh: Lâu đài nguy nga của Nữ hoàng Băng giá (hoặc boss trấn giữ khu vực).
+
+Đỉnh Gió Thét: Điểm cao nhất của ngọn núi, nơi không khí loãng và lạnh đến mức đóng băng tức thì.
+
+6. Vịnh Lam Ngọc – Đảo Triều Thủy (Bãi biển)
+Gồm 7 khu vực chính:
+
+Bãi Cát Trắng Sóng Vỗ: Bờ biển hiền hòa với vỏ sò đầy màu sắc và những con cua nhỏ.
+
+Rạn San Hô Cạn: Vùng nước nông lộ thiên khi thủy triều rút, nhiều cá lạ và nhím biển.
+
+Làng Chài Ven Biển: Nơi sinh sống của ngư dân và những người bán bản đồ hàng hải.
+
+Hang Động Hải Tặc: Hang đá tối tăm nằm ẩn sau các vách đá dựng đứng, chứa khobáu cướp biển.
+
+Vũng Nước Xoáy Ngầm: Khu vực dòng hải lưu cuộn xoáy nguy hiểm, dễ hút tàu thuyền nhỏ.
+
+Đền Thờ Thần Biển Bỏ Hoang: Kiến trúc ngập một phần trong nước, thờ cúng một vị thần thủy tộc cổ.
+
+Đảo San Hô Thiêng: Hòn đảo nhỏ ngoài khơi có hệ sinh thái động thực vật biển độc quyền.
+
+7. Quần Đảo Archipel – Vùng Đất Cô Lập (Đảo)
+Gồm 6 khu vực chính:
+
+Đảo Trung Tâm (Hòn Đảo Mẹ): Hòn đảo lớn nhất có bến cảng chính để di chuyển đi các đảo con.
+
+Đảo Tổ Chim: Vách đá dựng đứng là nơi trú ngụ của các loài đại bàng khổng lồ và chim cuồng phong.
+
+Đảo Tro Tàn: Hòn đảo có núi lửa mini hoạt động, bề mặt phủ đầy đá nham thạch đen.
+
+Đảo Suối Khoáng: Hòn đảo yên bình với các hồ nước nóng tự nhiên giúp hồi phục thể lực.
+
+Đảo Mê Cung Đá: Hòn đảo có cấu trúc đá xếp hình trận đồ tự nhiên, dễ làm người ta đi vòng tròn.
+
+Đảo Hoang Ma Ánh: Hòn đảo nhỏ xuất hiện màn sương quỷ dị về đêm, đồn đại có kho báu bị nguyền rủa.
+
+8. Quần Đảo Thiên Không Aethelgard – Vực Mây (Đảo bay)
+Gồm 8 khu vực chính:
+
+Bến Đỗ Phi Thuyền: Sân ga chính neo đậu các con tàu bay của lữ khách.
+
+Đảo Lõi Trọng Lực: Hòn đảo trung tâm giữ cho toàn bộ quần đảo lơ lửng không rơi xuống đất.
+
+Vườn Mây Treo: Những khu vườn lơ lửng trồng các loài thảo mộc chỉ sinh trưởng ở tầng khí quyển cao.
+
+Cầu Dây Văng Vực Thẳm: Hệ thống cầu treo chông chênh nối giữa hai hòn đảo lớn.
+
+Tháp Thiên Văn Cổ: Tòa tháp cao chọc trời nghiên cứu vì sao và các dòng khí quyển.
+
+Đảo Sấm Sét: Hòn đảo bị bao phủ bởi các đám mây đen và những tia chớp tĩnh điện quanh năm.
+
+Vực Gio Lốc: Khu vực có các luồng khí nâng siêu mạnh, dùng để lướt ván bay qua các đảo xa.
+
+Đền Thờ Thần Gió: Nơi nhận phước lành tăng tốc độ di chuyển và khả năng lướt trên không.
+
+9. Tàn Tích Chronopolis – Thành Phố Vĩnh Cửu (Thành phố cổ đại)
+Gồm 9 khu vực chính:
+
+Cổng Thời Gian Đổ Nát: Lối vào thành phố với chiếc đồng hồ vĩ đại đã chết máy từ ngàn năm trước.
+
+Quảng Trường Bức Tượng Đá: Nơi hàng trăm bức tượng dân cư bị hóa đá trong tư thế hoảng loạn.
+
+Đại Lộ Ký Ức: Con đường lớn phản chiếu những sự kiện lịch sử của thành phố khi có người bước qua.
+
+Thư Viện Cổ Kết Tinh: Nơi lưu giữ các cuộn giấy da ma thuật chứa cấm chú và tri thức thất truyền.
+
+Kưởng Chế Tạo Tự Động: Xưởng máy móc khổng lồ vẫn tự động vận hành dù không có người điều khiển.
+
+Tháp Đồng Hồ Trung Tâm: Tòa tháp cao nhất, nơi giữ "Bánh Răng Thời Gian" (vật phẩm cốt truyện).
+
+Hầm Ngục Giam Giữ Kẻ Phản Nạn: Mê cung ngầm u ám với những cỗ máy bẫy tinh vi.
+
+Vườn Thượng Huyền Ngưng Đọng: Khu vườn nơi hoa lá không bao giờ tàn úa vì thời gian đã bị đóng băng.
+
+Cung Điện Hoàng Gia Sụp Đổ: Nơi ngự trị của Trùm cuối (Boss) bảo vệ bí mật thời gian.
+
+10. Rừng Tinh Thể Lumina – Vùng Đất Ánh Sáng (Rừng pha lê)
+Gồm 7 khu vực chính:
+
+Bìa Rừng Phản Quang: Nơi những cây thạch anh thấp bắt đầu khúc xạ ánh sáng mặt trời thành bảy màu.
+
+Đầm Lầy Pha Lê Lỏng: Vùng nước khoáng chất trong suốt sủi bọt sáng lấp lánh như gương.
+
+Mê Cung Tinh Thể Khổng Lổng: Các khối thạch anh mọc cao như tường thành, dễ gây lóa mắt.
+
+Hang Động Tiếng Chuông: Khu vực các nhánh pha lê va vào nhau tạo ra âm thanh ngân vang thanh khiết.
+
+Cây Đại Thụ Pha Lê: Cây trung tâm cực lớn chứa nguồn năng lượng quang hệ tinh khiết nhất.
+
+Khu Trú Ngụ Của Golems Tinh Thể: Lãnh địa của các sinh vật sống bằng năng lượng ánh sáng.
+
+Hồ Phản Chiếu Vô Cực: Mặt hồ phẳng lặng như gương trời, phản chiếu cả những chiều không gian khác.
+
+11. Thung Lũng Hắc Vụ Mistveil – Vùng Đất Khuất Tất (Thung lũng sương mù)
+Gồm 8 khu vực chính:
+
+Đường Mòn Đèn Lồng Cũ: Lối đi duy nhất được đánh dấu bằng những chiếc đèn ma thuật yếu ớt.
+
+Đầm Lầy Ảo Ảnh: Vùng lầy phát sinh những làn khói tạo hình thù dụ dỗ lữ khách đi lạc.
+
+Rừng Cổ Thụ Mục Nát: Những thân cây khô quắt rũ rượi, không có lá, quấn quanh bởi rễ cây gai.
+
+Nghĩa Địa Vô Danh: Bãi tha ma cổ nơi các linh hồn không đầu thường lang thang lúc nửa đêm.
+
+Làng Bị Lãng Quên: Ngôi làng hoang tàn chìm trong tĩnh lặng, nhà cửa phủ đầy mạng nhện.
+
+Hồ Nước Đen Sâu Thẳm: Mặt hồ tĩnh lặng tuyệt đối, không một bóng cá, hơi nước tỏa ra gây tê liệt.
+
+Đền Thờ Vực Sâu: Ngôi đền âm u nằm ẩn trong hang đá, nơi thờ cúng các thế lực hắc ám.
+
+Điểm Sương Mù Dày Đặc (Lõi Vùng Đất): Nơi sương mù đặc quánh như sữa, giấu kín trùm khu vực.
+
+12. Thảo Nguyên Nebula – Vùng Đất Đột Biến (Thảo nguyên bào tử tím neon)
+Gồm 8 khu vực chính:
+
+Cánh Đồng Nấm Phát Sáng: Thảm thực vật nấm khổng lồ phát ra ánh sáng tím rực rỡ trong đêm.
+
+Rừng Bào Tử Lơ Lửng: Vùng không gian ngập tràn các hạt bào tử tím bay lơ lửng như sao trời.
+
+Khe Nứt Năng Lượng: Các vết nứt trên mặt đất rò rỉ dung dịch năng lượng màu hồng neon.
+
+Khu Sinh Vật Đột Biến: Nơi các loài thú hoang dã mang các đặc điểm kỳ dị (nhiều mắt, phát sáng).
+
+Xác Con Trụ Trinh Sát Cổ: Vỏ tàu vũ trụ / phi thuyền rơi từ ngoài hành tinh xuống, bị nấm bao phủ.
+
+Đầm Nước Axit Nhẹ: Các hồ nước nhỏ có màu tím đậm, chứa dung dịch hóa học phản ứng mạnh.
+
+Đồi Sóng Bào Tử: Những ngọn đồi thoai thoải phủ đầy thảm nấm mềm mại thay vì cỏ thường.
+
+Lõi Đột Biến: Vùng trung tâm có nồng độ bào tử cao nhất, kiểm soát hệ sinh thái toàn thảo nguyên.
+
+13. Khu Rừng Nấm Khổng Lồ Mycelia – Vương Quốc Dưới Tán Nấm (Rừng nấm)
+Gồm 8 khu vực chính:
+
+Bìa Nấm Sợi: Khu vực những cây nấm nhỏ mọc chi chít như thảm nhung dưới chân.
+
+Thành Phố Tí Hon Dưới Tán: Cộng đồng của chủng tộc người lùn/tiên rừng sống khoét sâu trong thân nấm.
+
+Rừng Nấm Dù Khổng Lồ: Nơi những cây nấm cao hàng chục mét che kín cả bầu trời.
+
+Dòng Suối Mật Nấm: Con suối chảy dòng chất lỏng ngọt ngào tiết ra từ rễ nấm khổng lồ.
+
+Hang Động Mycelium Ngầm: Mạng lưới rễ nấm kết nối toàn bộ khu rừng như hệ thần kinh.
+
+Khu Nuôi Trồng Dược Liệu: Vườn ươm các loại nấm quý hiếm dùng để chế tạo thuốc hồi phục cao cấp.
+
+Vùng Đất Nấm Độc Phun Khói: Khu vực nguy hiểm có các loài nấm bẫy tự động phun khí độc khi có kẻ lại gần.
+
+Nấm Tổ Tiên (Trụ Cột Rừng): Cây nấm linh hồn khổng lồ giữ nguồn sống và năng lượng cho toàn bộ khu rừng.
+
+
+// bên dưới này chưa động đến
+
+// map đặc biệt
+
+Tàn Tích Chronopolis – Thành Phố Vĩnh Cửu (Map Đặc Biệt)
+Điểm đặc biệt: Thời gian tại đây bị bẻ cong. Một số khu vực có nhịp thời gian chạy chậm lại hoặc tua ngược, khiến người chơi phải giải các câu đố liên quan đến không-thời gian để tiến âv.
+
+1. Cổng Thời Gian Đổ Nát: Lối vào thành phố với chiếc đồng hồ vĩ đại đã chết máy, nơi người chơi phải tìm bánh răng khởi động lại không gian.
+
+2. Quảng Trường Bức Tượng Đá: Nơi hàng trăm cư dân cổ đại bị hóa đá trong tư thế hoảng loạn; họ có thể hé lộ manh mối nếu chạm vào đúng thời điểm.
+
+3. Đại Lộ Ký Ức: Con đường lớn phản chiếu quá khứ, tự động tái hiện lại những sự kiện lịch sử của thế giới khi có người bước qua.
+
+4. Thư Viện Cổ Kết Tini: Nơi lưu giữ các cuộn giấy da ma thuật chứa cấm chú thời gian và tri thức thất truyền từ thế giới cũ.
+
+5. Xưởng Chế Tạo Tự Động: Khu phức hợp máy móc khổng lồ vẫn tự động vận hành liên tục dù không có người điều khiển suốt ngàn năm.
+
+6. Tháp Đồng Hồ Trung Tâm: Tòa tháp cao chọc trời, nơi giữ "Bánh Răng Nguyên Thủy" – vật phẩm cốt truyện chính của toàn bộ hành trình.
+
+7. Hầm Ngục Giam Giữ Kẻ Phản Nạn: Mê cung ngầm u ám với những cỗ máy bẫy không gian tinh vi, giam giữ những sinh vật từ chiều không gian khác.
+
+8. Vườn Thượng Huyền Ngưng Đọng: Khu vườn kỳ ảo nơi hoa lá không bao giờ tàn úa vì vòng lặp thời gian bị khóa chặt tại một khoảnh khắc.
+
+9. Cung Điện Hoàng Gia Sụp Đổ: Nơi ngự trị của Trùm cuối (Boss) bảo vệ sự cân bằng của vương quốc cổ.
+
+10. Trạm Dịch Chuyển Không-Thời Gian: Nơi các lữ khách có thể dùng để nhảy cóc giữa các mốc thời gian khác nhau trong map.
+
+11. Hồ Gương Phản Chiếu Vô Cực: Mặt nước không một gợn sóng phản chiếu những phiên bản song song của người chơi từ các thế giới khác.
+
+12. Đền Thờ Vực Sâu Thời Gian: Nơi ranh giới giữa quá khứ và tương lai xóa nhòa, môi trường xung quanh thay đổi liên tục theo từng bước chân.
+
+⭐ Khu Vực Bí Mật Đặc Biệt (Khu thứ 13 - Ẩn): Kẻ Hở Vô Định (The Void Rift): Chỉ mở khóa khi hoàn thành cốt truyện chính của Chronopolis. Đây là nơi dung hợp giữa các chiều không gian Isekai, chứa những thử thách khó nhất và phần thưởng tối thượng cho người chơi.

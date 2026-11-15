@@ -1,0 +1,27 @@
+các kĩ năng:
+	kĩ năng chính:
+		1-đấu sĩ :
+			chiến đấu vì hoà bình
+		2-cung thủ
+			sử dụng cung
+		3-phù thuỷ
+			sử dụng phép thuật 
+	kĩ năng khác
+		4-pha chế thuốc (alchemy) 
+			cung cấp và hiệu ứng, hồi hp, mana, ...
+		5-thợ rèn (smithing)
+			tạo ra các trang bị, vật phẩm thô
+		6-khai khoáng (mining)
+			khai thác khoáng sản để chế tạo
+		7-khai thác gỗ (woodcutting)
+			khai thác gỗ cho các công dụng chế tạo, lắp ráp
+		8-chế tạo (crafting)
+			kết hợp các vật phẩm thô thành trang bị
+		9-câu cá (fishing)
+			câu cá thư giãn, làm món ăn
+		10-nấu ăn (cooking)
+			làm món ăn từ động vật, thực vật
+		11-trồng trọt (farmming)
+			cung cấp ngay các nguồn lương thực và một số vật phẩm cần thiết
+		12-spellbinding
+			chế tạo các vật phẩm, trang bị, thiết bị, cung cấp cho phù thuỷ.

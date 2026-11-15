@@ -1,0 +1,17 @@
+bản đồ gồm 13 khu vực chính gồm: 
+	1-valoria - thành phố khởi đầu
+	2-zephyria - đồng cỏ
+	3-sylvanas - forest
+	4-solaria - sa mạc
+	5-frostpeak - vùng tuyết
+	6-vịnh lam ngọc - vùng vịnh 
+	7-archipel - island
+	8-aethelgrard - sky island
+	9-chronopolis - ancient city
+	10-lumina - krystal forest
+	11-mistveil - misty valley 
+	12-nebula - spore steppe
+	13-mycelia - mushroom
+
+create imge:
+A highly detailed fantasy world map, top-down cartography style on aged parchment paper, showing a single giant continent surrounded by ocean with 13 distinct interconnected regions. In the center: a fortified medieval starter city (Valoria) surrounded by lush green rolling grasslands (Zephyria) and a dense ancient emerald forest (Sylvanas). To the north: jagged snowy peaks and glaciers (Frostpeak), alongside a glowing crystal forest (Lumina) and a mysterious foggy valley (Mistveil). To the south: a scorching golden sand desert (Solaria), bordered by a vibrant turquoise coastal bay (Vinh Lam Ngoc) and a scattered tropical island archipelago (Archipel). To the east: an ancient clockwork stone city ruins (Chronopolis), transitioning into a glowing purple spore steppe (Nebula) and a giant bioluminescent mushroom forest (Mycelia). Floating high in the sky above the continent: majestic floating sky islands with waterfalls (Aethelgrard). Intricate compass rose, dotted travel paths, hand-drawn ink lines with rich watercolor painting, RPG game map aesthetic, 8k resolution --ar 16:9
