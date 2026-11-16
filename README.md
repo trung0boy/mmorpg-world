@@ -1,108 +1,108 @@
+````markdown
 # MMORPG World
 
-`mmorpg-world` là nhánh mã nguồn chính của dự án game nhập vai trực tuyến đa người chơi (MMORPG), tập trung vào kiến trúc mở, khả năng mở rộng và trải nghiệm chơi game ổn định. README này cung cấp cái nhìn tổng quan về mục tiêu hệ thống, cấu trúc dự án, kỹ thuật triển khai và quy trình phát triển.
+`mmorpg-world` là dự án game nhập vai trực tuyến nhiều người chơi (MMORPG) 2D. Trò chơi hướng đến thế giới nhiều khu vực, nhân vật và hoạt động tương tác; tài liệu này trình bày định hướng thiết kế và cấu trúc tham khảo cho dự án.
 
 ## Mục tiêu dự án
 
-- Xây dựng nền tảng MMO có khả năng hỗ trợ nhiều người chơi đồng thời.
-- Tách biệt rõ ràng giữa tầng logic game, dữ liệu và tương tác người dùng.
-- Hỗ trợ mở rộng tính năng, map, NPC, hệ thống chiến đấu và tiến hóa nhân vật.
-- Thiết kế kiến trúc dễ kiểm thử, dễ triển khai và dễ bảo trì theo thời gian.
+- Xây dựng thế giới 2D có thể hỗ trợ nhiều người chơi đồng thời.
+- Tổ chức thế giới bằng bản đồ 2D, khu vực, lớp tile và các đối tượng tương tác.
+- Phát triển nhân vật, NPC, chiến đấu, nhiệm vụ và tính năng xã hội.
+- Thiết kế các thành phần dễ kiểm thử, mở rộng và bảo trì.
 
-## Tính năng nổi bật
+## Tính năng định hướng
 
-- Hệ thống thế giới ảo với các khu vực, map và đối tượng tương tác.
-- Nhân vật người chơi với trạng thái, cấp độ, vật phẩm và kỹ năng.
-- Hệ thống chiến đấu, kinh nghiệm và tiến độ phát triển nhân vật.
-- Quản lý mạng và đồng bộ trạng thái giữa client và server.
-- Cấu trúc module hóa để thêm nội dung mới nhanh chóng.
-- Khả năng mở rộng cho nhiều server, chế độ trò chơi và tính năng xã hội.
+- Bản đồ 2D với tilemap, vật cản, cổng dịch chuyển và khu vực riêng.
+- Nhân vật hiển thị bằng sprite, có hoạt ảnh di chuyển, tấn công và tương tác.
+- Điều khiển di chuyển theo góc nhìn của trò chơi (ví dụ: từ trên xuống hoặc đi cảnh ngang).
+- Hệ thống cấp độ, trang bị, vật phẩm, kỹ năng, nhiệm vụ và chiến đấu.
+- NPC, quái vật và các hoạt động khám phá thế giới.
+- Đồng bộ người chơi và sự kiện trong khu vực thông qua kết nối client-server.
+- Các tính năng nhiều người chơi như chat, nhóm, bang hội và giao dịch khi được triển khai.
 
 ## Kiến trúc hệ thống
 
-Dự án được thiết kế theo hướng phân tầng và modular, giúp tách rời các thành phần chính:
+Dự án có thể được tổ chức thành các thành phần tách biệt:
 
-- Client: giao diện, nhập liệu, render và tương tác người dùng.
-- Server logic: xử lý vật lý trò chơi, quy tắc, tính toán combat và AI.
-- Data layer: lưu trữ thông tin người chơi, vật phẩm, bản đồ và cấu hình.
-- Network layer: truyền tải trạng thái, sự kiện và đồng bộ dữ liệu realtime.
-- Services: quản lý matchmaking, login, economy, guild, chat và hệ thống sự kiện.
+- **Client 2D:** hiển thị tilemap, sprite, hoạt ảnh, giao diện và xử lý thao tác người chơi.
+- **Server game:** xác thực hành động, quản lý trạng thái nhân vật, chiến đấu, NPC và luật chơi.
+- **Dữ liệu:** lưu tài khoản, nhân vật, vật phẩm, nhiệm vụ, bản đồ và cấu hình trò chơi.
+- **Mạng:** truyền thông điệp và đồng bộ trạng thái cần thiết giữa client với server.
+- **Dịch vụ:** hỗ trợ đăng nhập, chat, nhóm/bang hội và các chức năng trực tuyến khác.
 
-Mô hình này giúp giảm độ phụ thuộc giữa các thành phần và cải thiện hiệu suất vận hành khi mở rộng quy mô người chơi.
+Server nên là nguồn dữ liệu có thẩm quyền đối với trạng thái quan trọng như vị trí hợp lệ, vật phẩm và kết quả chiến đấu. Client đảm nhiệm hiển thị và phản hồi điều khiển, không tự quyết định các kết quả có ảnh hưởng đến tiến độ người chơi.
 
-## Công nghệ đề xuất
+## Công nghệ
 
-Dự án có thể được triển khai trên nhiều stack khác nhau tùy theo ngôn ngữ và mục tiêu phát triển. Một kiến trúc phổ biến cho MMORPG bao gồm:
+Công nghệ cụ thể phụ thuộc vào mã nguồn hiện có và quyết định triển khai. Một số lựa chọn phù hợp cho game 2D gồm:
 
-- Ngôn ngữ server: C#, Go, Rust hoặc Java.
-- Cơ sở dữ liệu: PostgreSQL, MySQL hoặc MongoDB.
-- Message queue: Redis, Kafka hoặc RabbitMQ.
-- Real-time networking: TCP/UDP, WebSocket hoặc custom protocol.
-- Game engine: Unity, Unreal Engine, Godot hoặc engine tùy thiết kế.
-- Caching: Redis cho session, state và leaderboard.
+- **Engine 2D:** Godot, Unity 2D hoặc framework 2D phù hợp với dự án.
+- **Ngôn ngữ server:** C#, Go, Rust hoặc Java.
+- **Cơ sở dữ liệu:** PostgreSQL, MySQL hoặc giải pháp tương đương.
+- **Giao tiếp mạng:** TCP, WebSocket hoặc giao thức phù hợp với mô hình game.
+- **Cache/dịch vụ phụ trợ:** Redis hoặc công nghệ tương đương nếu quy mô yêu cầu.
 
-## Cấu trúc thư mục
+Đây là các lựa chọn tham khảo, không khẳng định dự án đã sử dụng một stack cụ thể.
+
+## Cấu trúc thư mục tham khảo
 
 ```text
 mmorpg-world/
-├── docs/                  # Tài liệu thiết kế, API, gameplay và kiến trúc
-├── src/                   # Mã nguồn chính của game
-│   ├── client/            # Logic client và giao diện
-│   ├── server/            # Logic server, game loop và ECS/actor model
-│   ├── shared/            # Logic dùng chung giữa client/server
-│   ├── data/              # Script dữ liệu, config, loot, quests
-│   └── network/           # Protocol, packet, socket và sync
-├── assets/                # Tài nguyên game: sprite, model, âm thanh
-├── tests/                 # Unit tests, integration tests, load tests
-├── scripts/               # Tool build, setup, deploy và automation
-├── README.md              # Tổng quan dự án
-├── LICENSE                # Giấy phép sử dụng
-└── .gitignore             # Quy tắc bỏ qua file khi commit
+├── docs/                  # Tài liệu thiết kế, gameplay và kiến trúc
+├── src/
+│   ├── client/            # Điều khiển, giao diện và hiển thị 2D
+│   ├── server/            # Luật chơi và trạng thái authoritative
+│   ├── shared/            # Kiểu dữ liệu và logic dùng chung
+│   ├── data/              # Cấu hình bản đồ, vật phẩm, NPC và nhiệm vụ
+│   └── network/           # Giao thức và đồng bộ client-server
+├── assets/
+│   ├── sprites/            # Sprite nhân vật, NPC và đối tượng
+│   ├── tilesets/           # Tile và tilemap
+│   ├── animations/         # Tài nguyên hoạt ảnh
+│   └── audio/              # Nhạc và hiệu ứng âm thanh
+├── tests/                  # Kiểm thử
+├── scripts/                # Công cụ phát triển và triển khai
+├── README.md
+├── LICENSE
+└── .gitignore
 ```
+
+Cấu trúc trên chỉ mang tính định hướng và nên được điều chỉnh theo cấu trúc thực tế của repository.
 
 ## Luồng hoạt động chính
 
-1. Người chơi đăng nhập và xác thực tài khoản.
-2. Server khởi tạo session và tải trạng thái nhân vật.
-3. Client kết nối tới world server và nhận dữ liệu bản đồ.
-4. Hệ thống cập nhật tương tác người chơi, NPC và đối tượng thế giới.
-5. Các sự kiện chiến đấu, giao dịch và nhiệm vụ được xử lý theo thời gian thực.
-6. Dữ liệu được lưu trữ an toàn và đồng bộ theo thời gian.
+1. Người chơi đăng nhập và chọn nhân vật.
+2. Server tải trạng thái nhân vật và đưa người chơi vào khu vực phù hợp.
+3. Client nhận dữ liệu khu vực 2D và hiển thị tilemap, nhân vật, NPC cùng các đối tượng liên quan.
+4. Client gửi thao tác di chuyển và hành động; server kiểm tra và cập nhật trạng thái hợp lệ.
+5. Server xử lý chiến đấu, nhiệm vụ và tương tác, rồi gửi các thay đổi cần thiết cho người chơi trong khu vực.
+6. Tiến độ nhân vật được lưu theo chính sách lưu trữ của trò chơi.
 
-## Yêu cầu phát triển
+## Quy trình phát triển
 
-- Máy tính có cấu hình đủ để chạy IDE và trình biên dịch.
-- Hệ thống quản lý phiên bản Git.
-- Cơ sở dữ liệu và môi trường thực thi tương ứng với stack đã chọn.
-- Công cụ giám sát hiệu năng và logs cho phát triển và vận hành.
-
-## Quy trình làm việc
-
-- Phân tích gameplay và thiết kế hệ thống trước khi phát triển.
-- Tách module rõ ràng theo chức năng để dễ kiểm thử.
-- Viết test cho logic cốt lõi và các tính năng quan trọng.
-- Đánh giá hiệu năng khi thực hiện đồng bộ dữ liệu và xử lý nhiều client.
-- Theo dõi logs, latency và độ ổn định trước khi triển khai production.
+- Xác định góc nhìn, cách điều khiển và quy tắc va chạm của thế giới 2D.
+- Thiết kế tilemap, kích thước ô, vùng di chuyển và cách chuyển khu vực.
+- Tách logic hiển thị client khỏi luật chơi và trạng thái do server quản lý.
+- Kiểm thử di chuyển, va chạm, hoạt ảnh, đồng bộ và các tình huống mạng.
+- Theo dõi độ trễ, tải máy chủ và độ ổn định khi có nhiều người chơi.
+- Cập nhật tài liệu khi thay đổi giao thức hoặc thiết kế gameplay.
 
 ## Đóng góp
 
-Mọi đóng góp đều được hoan nghênh nếu tuân thủ các nguyên tắc sau:
+- Giữ mã nguồn rõ ràng và phù hợp với cấu trúc dự án hiện tại.
+- Viết hoặc cập nhật kiểm thử cho logic được thay đổi.
+- Bổ sung tài liệu khi thay đổi gameplay, dữ liệu bản đồ hoặc giao tiếp mạng.
+- Không đưa tài nguyên đồ họa, âm thanh hoặc mã nguồn vào dự án nếu không có quyền sử dụng.
 
-- Giữ code rõ ràng, dễ đọc và dễ bảo trì.
-- Cập nhật tài liệu khi thay đổi kiến trúc hoặc API.
-- Viết test cho logic mới hoặc sửa lỗi có ảnh hưởng lớn.
-- Tránh thay đổi không cần thiết vào các module đang hoạt động ổn định.
+## Lộ trình tham khảo
 
-## Lộ trình gợi ý
-
-- Giai đoạn 1: Khởi tạo project, cấu trúc code và hệ thống login.
-- Giai đoạn 2: Map, movement và đồng bộ trạng thái người chơi.
-- Giai đoạn 3: Combat, skill, inventory và quest system.
-- Giai đoạn 4: Social, guild, trading và PvP.
-- Giai đoạn 5: Scaling, optimization và bảo mật hệ thống.
+- Giai đoạn 1: Khởi tạo client 2D, điều khiển nhân vật và hiển thị bản đồ.
+- Giai đoạn 2: Kết nối server, đăng nhập, di chuyển và đồng bộ người chơi.
+- Giai đoạn 3: NPC, quái vật, chiến đấu, vật phẩm và nhiệm vụ.
+- Giai đoạn 4: Chat, nhóm/bang hội, giao dịch và các hoạt động nhiều người chơi.
+- Giai đoạn 5: Tối ưu hiệu năng, mở rộng quy mô và hoàn thiện vận hành.
 
 ## Kết luận
 
-`mmorpg-world` là một dự án hướng tới việc xây dựng một nền tảng MMORPG hiện đại, có thể mở rộng và vận hành ổn định trong môi trường thực tế. Việc áp dụng đúng nguyên tắc thiết kế phần mềm, kiến trúc phân tầng và tối ưu hiệu năng sẽ là yếu tố then chốt để dự án phát triển bền vững.
-
-Nếu bạn muốn, dự án này có thể tiếp tục được mở rộng với các tài liệu kỹ thuật chi tiết hơn như: thiết kế hệ thống server, mô hình dữ liệu, network protocol, gameplay loop và roadmap phát triển từng phiên bản.
+`mmorpg-world` hướng tới một MMORPG 2D trực tuyến với thế giới tilemap, nhân vật dạng sprite và các hệ thống nhập vai nhiều người chơi. Các công nghệ và cấu trúc nêu trên là định hướng; cần đối chiếu với mã nguồn thực tế trước khi triển khai.
+````

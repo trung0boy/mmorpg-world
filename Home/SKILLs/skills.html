@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0a0d18">
+    <meta name="description" content="Cẩm nang 12 kỹ năng chiến đấu và life skill trong MMORPG World.">
+    <title>Kỹ năng — MMORPG World</title>
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <a class="brand" href="../home.html">
+          <span class="brand-mark">⚔️</span>
+          <span>MMORPG <span class="accent">World</span></span>
+        </a>
+        <div class="topbar-actions">
+          <a class="btn" href="../home.html">← Trang chủ</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container page-head">
+      <nav class="breadcrumb" aria-label="Đường dẫn">
+        <a href="../home.html">Trang chủ</a>
+        <span class="sep">/</span>
+        <span class="current">Kỹ năng</span>
+      </nav>
+
+      <section class="region-hero">
+        <div class="region-emblem" aria-hidden="true">📘</div>
+        <div class="region-info">
+          <span class="region-tag">Cẩm nang nhân vật</span>
+          <h1>Kỹ năng</h1>
+          <p class="region-en">12 kỹ năng chiến đấu &amp; life skill — vai trò, cách vận hành và mô tả chi tiết cho từng kỹ năng.</p>
+        </div>
+        <div class="region-count">
+          <strong>12</strong>
+          <span>Kỹ năng</span>
+        </div>
+      </section>
+
+      <div class="section-label">Danh sách kỹ năng</div>
+
+      <div class="skill-toolbar">
+        <label class="skill-search">
+          <input id="skill-search" type="search" placeholder="Tìm kỹ năng hoặc mô tả…" aria-label="Tìm kỹ năng">
+        </label>
+        <div class="skill-filters" role="group" aria-label="Lọc theo nhóm kỹ năng">
+          <button class="chip is-active" type="button" data-filter="all" aria-pressed="true">Tất cả</button>
+          <button class="chip" type="button" data-filter="chinh" aria-pressed="false">Kĩ năng chính</button>
+          <button class="chip" type="button" data-filter="khac" aria-pressed="false">Kĩ năng khác</button>
+        </div>
+        <span class="skill-count" id="result-count" aria-live="polite">12 kỹ năng</span>
+      </div>
+
+      <section class="skill-group" data-group="chinh" aria-labelledby="group-chinh">
+        <div class="section-label" id="group-chinh">Kĩ năng chính <span class="label-count">3</span></div>
+        <div class="skill-grid">
+          <article class="skill-card" id="dau-si" data-group="chinh">
+            <header class="skill-head">
+              <span class="skill-icon" aria-hidden="true">⚔️</span>
+              <div class="skill-title">
+                <span class="skill-index">Kỹ năng 01</span>
+                <h2>Đấu sĩ <span class="skill-en">Warrior</span></h2>
+              </div>
+              <span class="skill-badge chinh">Chính</span>
+            </header>
+            <p class="skill-summary">Chiến đấu vì hoà bình — lớp cận chiến tiên phong của đội hình.</p>
+            <p class="skill-detail">Đấu sĩ là lớp nhân vật cận chiến chủ lực, dùng kiếm và khiên để áp sát, giữ chân kẻ địch và bảo vệ đồng đội. Với lượng máu và giáp cao, đấu sĩ có thể đứng tuyến đầu trong mọi trận chiến, mở đường cho cung thủ và phù thuỷ tung đòn từ phía sau.</p>
+            <ul class="skill-points">
+              <li>Tấn công cận chiến bằng kiếm, chém xoáy gây sát thương diện rộng.</li>
+              <li>Phòng thủ bằng khiên, giảm sát thương và che chắn cho đồng đội.</li>
+              <li>Phù hợp người chơi thích giao tranh trực diện và chịu đòn tốt.</li>
+              <li>Hỗ trợ khai khoáng, thợ rèn nhờ sức mạnh thể chất.</li>
+            </ul>
+            <div class="skill-facts">
+              <span><b>Vai trò</b> Cận chiến</span>
+              <span><b>Vũ khí</b> Kiếm · Khiên</span>
+              <span><b>Độ khó</b> Dễ</span>
+            </div>
+          </article>
+
+          <article class="skill-card" id="cung-thu" data-group="chinh">
+            <header class="skill-head">
+              <span class="skill-icon" aria-hidden="true">🏹</span>
+              <div class="skill-title">
+                <span class="skill-index">Kỹ năng 02</span>
+                <h2>Cung thủ <span class="skill-en">Archer</span></h2>
+              </div>
+              <span class="skill-badge chinh">Chính</span>
+            </header>
+            <p class="skill-summary">Sử dụng cung — tấn công tầm xa, bắn tỉa chính xác.</p>
+            <p class="skill-detail">Cung thủ chiến đấu từ khoảng cách an toàn, dùng cung và bẫy để kiểm soát chiến trường. Nhờ tốc độ và độ chính xác cao, cung thủ là mũi nhọn bắn tỉa mục tiêu quan trọng, đồng thời linh hoạt trong việc săn thú và thu thập nguyên liệu.</p>
+            <ul class="skill-points">
+              <li>Bắn tỉa tầm xa với các phát bắn chính xác.</li>
+              <li>Đặt bẫy dây leo để giữ chân kẻ địch.</li>
+              <li>Linh hoạt, di chuyển nhanh, phù hợp kéo quái.</li>
+              <li>Săn thú cung cấp da, lông và thịt cho các nghề khác.</li>
+            </ul>
+            <div class="skill-facts">
+              <span><b>Vai trò</b> Tầm xa</span>
+              <span><b>Vũ khí</b> Cung · Bẫy</span>
+              <span><b>Độ khó</b> Trung bình</span>
+            </div>
+          </article>
+
+          <article class="skill-card" id="phu-thuy" data-group="chinh">
+            <header class="skill-head">
+              <span class="skill-icon" aria-hidden="true">🧙</span>
+              <div class="skill-title">
+                <span class="skill-index">Kỹ năng 03</span>
+                <h2>Phù thuỷ <span class="skill-en">Mage</span></h2>
+              </div>
+              <span class="skill-badge chinh">Chính</span>
+            </header>
+            <p class="skill-summary">Sử dụng phép thuật — sát thương phép và khống chế diện rộng.</p>
+            <p class="skill-detail">Phù thuỷ điều khiển các nguyên tố lửa, băng và sét, gây sát thương phép lớn trên diện rộng. Tuy mong manh về thể chất, phù thuỷ có thể khống chế, làm chậm và tạo lợi thế cho cả đội nếu được bảo vệ đúng cách.</p>
+            <ul class="skill-points">
+              <li>Tấn công phép tầm xa bằng quả cầu lửa, băng tiễn.</li>
+              <li>Khống chế đám đông và làm chậm mục tiêu.</li>
+              <li>Cần giữ khoảng cách, phối hợp với tuyến trước.</li>
+              <li>Nhận trang bị phép từ nghề Spellbinding.</li>
+            </ul>
+            <div class="skill-facts">
+              <span><b>Vai trò</b> Phép thuật</span>
+              <span><b>Vũ khí</b> Gậy phép · Pháp khí</span>
+              <span><b>Độ khó</b> Trung bình</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="skill-group" data-group="khac" aria-labelledby="group-khac">
+        <div class="section-label" id="group-khac">Kĩ năng khác <span class="label-count">9</span></div>
+        <div class="skill-grid">
+          <article class="skill-card" id="pha-che-thuoc" data-group="khac">
+            <header class="skill-head">
+              <span class="skill-icon" aria-hidden="true">🧪</span>
+              <div class="skill-title">
+                <span class="skill-index">Kỹ năng 04</span>
+                <h2>Pha chế thuốc <span class="skill-en">Alchemy</span></h2>
+              </div>
+              <span class="skill-badge khac">Khác</span>
+            </header>
+            <p class="skill-summary">Cung cấp thuốc và hiệu ứng: hồi HP, mana, tăng sức mạnh.</p>
+            <p class="skill-detail">Pha chế thuốc là nghề tạo ra các loại thuốc và dung dịch hỗ trợ chiến đấu. Người pha chế kết hợp dược liệu, khoáng chất và nguyên liệu từ câu cá để tạo thuốc hồi máu, hồi mana, giải độc và các hiệu ứng tăng sức mạnh tạm thời.</p>
+            <ul class="skill-points">
+              <li>Hồi HP, mana và giải trừ trạng thái bất lợi.</li>
+              <li>Tạo thuốc tăng sức mạnh, phòng thủ và tốc độ.</li>
+              <li>Nguyên liệu đến từ trồng trọt, câu cá, khai khoáng.</li>
+              <li>Sản phẩm luôn có nhu cầu cao trên chợ.</li>
+            </ul>
+            <div class="skill-facts">
+              <span><b>Nguyên liệu</b> Dược liệu · Khoáng chất</span>
+              <span><b>Sản phẩm</b> Thuốc · Dung dịch</span>
+              <span><b>Kết hợp</b> Trồng trọt · Câu cá</span>
+            </div>
+          </article>
+
+          <article class="skill-card" id="tho-ren" data-group="khac">
+            <header class="skill-head">
+              <span class="skill-icon" aria-hidden="true">🔨</span>
+              <div class="skill-title">
+                <span class="skill-index">Kỹ năng 05</span>
+                <h2>Thợ rèn <span class="skill-en">Smithing</span></h2>
+              </div>
+              <span class="skill-badge khac">Khác</span>
+            </header>
+            <p class="skill-summary">Tạo ra trang bị và vật phẩm thô từ quặng, da.</p>
+            <p class="skill-detail">Thợ rèn nung chảy quặng, rèn kiếm, giáp và các vật phẩm thô phục vụ chế tạo. Đây là nghề nền tảng cung cấp trang bị bền bỉ, đồng thời nâng cấp và sửa chữa vũ khí cho người chơi.</p>
+            <ul class="skill-points">
+              <li>Rèn vũ khí, giáp và khiên từ quặng kim loại.</li>
+              <li>Sản xuất vật phẩm thô: đinh, mảnh kim loại, lưỡi kiếm.</li>
+              <li>Nâng cấp và sửa chữa trang bị cho nhân vật.</li>
+              <li>Phụ thuộc nguồn quặng từ khai khoáng.</li>
+            </ul>
+            <div class="skill-facts">
+              <span><b>Nguyên liệu</b> Quặng · Da · Than</span>
+              <span><b>Sản phẩm</b> Vũ khí · Trang bị</span>
+              <span><b>Kết hợp</b> Khai khoáng</span>
+            </div>
+          </article>
+
+          <article class="skill-card" id="khai-khoang" data-group="khac">
+            <header class="skill-head">
+              <span class="skill-icon" aria-hidden="true">⛏️</span>
+              <div class="skill-title">
+                <span class="skill-index">Kỹ năng 06</span>
+                <h2>Khai khoáng <span class="skill-en">Mining</span></h2>
+              </div>
+              <span class="skill-badge khac">Khác</span>
+            </header>
+            <p class="skill-summary">Khai thác khoáng sản để phục vụ chế tạo.</p>
+            <p class="skill-detail">Khai khoáng đưa người chơi xuống các mỏ đá, hầm quặng và hang động để thu thập kim loại, đá quý và than. Nguyên liệu thô này là đầu vào quan trọng cho thợ rèn, chế tạo và Spellbinding.</p>
+            <ul class="skill-points">
+              <li>Đào quặng sắt, đồng, vàng và đá quý.</li>
+              <li>Khai thác than và khoáng chất hiếm theo vùng đất.</li>
+              <li>Cấp mỏ càng cao, nguyên liệu thu được càng quý.</li>
+              <li>Cung cấp nguyên liệu cho thợ rèn và chế tạo.</li>
+            </ul>
+            <div class="skill-facts">
+              <span><b>Nguyên liệu</b> Quặng · Đá quý · Than</span>
+              <span><b>Khu vực</b> Mỏ · Hang động</span>
+              <span><b>Kết hợp</b> Thợ rèn · Chế tạo</span>
+            </div>
+          </article>
+
+          <article class="skill-card" id="khai-thac-go" data-group="khac">
+            <header class="skill-head">
+              <span class="skill-icon" aria-hidden="true">🪓</span>
+              <div class="skill-title">
+                <span class="skill-index">Kỹ năng 07</span>
+                <h2>Khai thác gỗ <span class="skill-en">Woodcutting</span></h2>
+              </div>
+              <span class="skill-badge khac">Khác</span>
+            </header>
+            <p class="skill-summary">Khai thác gỗ cho chế tạo và lắp ráp.</p>
+            <p class="skill-detail">Khai thác gỗ giúp thu hoạch gỗ từ các khu rừng trong thế giới. Gỗ thô và gỗ tinh chế được dùng để chế tạo cung, giáo, thuyền, đồ nội thất và nhiều vật phẩm lắp ráp khác.</p>
+            <ul class="skill-points">
+              <li>Chặt gỗ thường, gỗ cứng và gỗ quý theo vùng.</li>
+              <li>Cung cấp vật liệu cho chế tạo và lắp ráp.</li>
+              <li>Kết hợp với trồng trọt để duy trì nguồn gỗ.</li>
+              <li>Nghề khởi đầu an toàn, ít rủi ro.</li>
+            </ul>
+            <div class="skill-facts">
+              <span><b>Nguyên liệu</b> Gỗ thô · Gỗ tinh chế</span>
+              <span><b>Khu vực</b> Rừng · Đại ngàn</span>
+              <span><b>Kết hợp</b> Chế tạo · Trồng trọt</span>
+            </div>
+          </article>
+
+          <article class="skill-card" id="che-tao" data-group="khac">
+            <header class="skill-head">
+              <span class="skill-icon" aria-hidden="true">🛠️</span>
+              <div class="skill-title">
+                <span class="skill-index">Kỹ năng 08</span>
+                <h2>Chế tạo <span class="skill-en">Crafting</span></h2>
+              </div>
+              <span class="skill-badge khac">Khác</span>
+            </header>
+            <p class="skill-summary">Kết hợp vật phẩm thô thành trang bị hoàn chỉnh.</p>
+            <p class="skill-detail">Chế tạo là nghề kết hợp các vật phẩm thô như gỗ, quặng, da và vải thành trang bị, dụng cụ và đồ dùng hoàn chỉnh. Công thức chế tạo mở dần theo cấp nghề, cho phép tạo ra những món đồ chất lượng cao.</p>
+            <ul class="skill-points">
+              <li>Ghép vật liệu thô thành trang bị và dụng cụ.</li>
+              <li>Mở khoá công thức mới khi tăng cấp nghề.</li>
+              <li>Tạo đồ dùng cho các nghề khác và trang trí.</li>
+              <li>Là trung tâm kết nối khai khoáng, khai thác gỗ và thợ rèn.</li>
+            </ul>
+            <div class="skill-facts">
+              <span><b>Nguyên liệu</b> Gỗ · Quặng · Da · Vải</span>
+              <span><b>Sản phẩm</b> Trang bị · Dụng cụ</span>
+              <span><b>Kết hợp</b> Mọi nghề thu thập</span>
+            </div>
+          </article>
+
+          <article class="skill-card" id="cau-ca" data-group="khac">
+            <header class="skill-head">
+              <span class="skill-icon" aria-hidden="true">🎣</span>
+              <div class="skill-title">
+                <span class="skill-index">Kỹ năng 09</span>
+                <h2>Câu cá <span class="skill-en">Fishing</span></h2>
+              </div>
+              <span class="skill-badge khac">Khác</span>
+            </header>
+            <p class="skill-summary">Câu cá thư giãn và cung cấp nguyên liệu nấu ăn.</p>
+            <p class="skill-detail">Câu cá mang lại những phút giây thư giãn bên sông hồ và biển cả. Cá câu được dùng làm nguyên liệu nấu ăn, pha chế thuốc, đồng thời có thể sưu tầm các loài cá quý hiếm để trưng bày hoặc bán.</p>
+            <ul class="skill-points">
+              <li>Câu cá ở sông, hồ, biển và vùng nước đặc biệt.</li>
+              <li>Cung cấp nguyên liệu cho nấu ăn và pha chế.</li>
+              <li>Sưu tầm cá quý hiếm, hoàn thiện bộ sưu tập.</li>
+              <li>Nghề thư giãn, phù hợp lối chơi thong thả.</li>
+            </ul>
+            <div class="skill-facts">
+              <span><b>Nguyên liệu</b> Cá · Hải sản</span>
+              <span><b>Khu vực</b> Sông · Hồ · Biển</span>
+              <span><b>Kết hợp</b> Nấu ăn · Pha chế</span>
+            </div>
+          </article>
+
+          <article class="skill-card" id="nau-an" data-group="khac">
+            <header class="skill-head">
+              <span class="skill-icon" aria-hidden="true">🍳</span>
+              <div class="skill-title">
+                <span class="skill-index">Kỹ năng 10</span>
+                <h2>Nấu ăn <span class="skill-en">Cooking</span></h2>
+              </div>
+              <span class="skill-badge khac">Khác</span>
+            </header>
+            <p class="skill-summary">Làm món ăn từ động vật và thực vật.</p>
+            <p class="skill-detail">Nấu ăn biến thịt, cá, rau củ thành các món ăn hồi phục và tăng buff cho nhân vật. Đầu bếp giỏi có thể chế biến công thức đặc sản của từng vùng đất, mang lại lợi ích lâu dài cho cả đội.</p>
+            <ul class="skill-points">
+              <li>Chế biến món ăn hồi máu và tăng chỉ số tạm thời.</li>
+              <li>Kết hợp nguyên liệu từ trồng trọt, câu cá và săn bắn.</li>
+              <li>Mở khoá công thức đặc sản theo vùng đất.</li>
+              <li>Cung cấp lương thực ổn định cho hành trình dài.</li>
+            </ul>
+            <div class="skill-facts">
+              <span><b>Nguyên liệu</b> Thịt · Cá · Rau củ</span>
+              <span><b>Sản phẩm</b> Món ăn · Buff</span>
+              <span><b>Kết hợp</b> Trồng trọt · Câu cá</span>
+            </div>
+          </article>
+
+          <article class="skill-card" id="trong-trot" data-group="khac">
+            <header class="skill-head">
+              <span class="skill-icon" aria-hidden="true">🌾</span>
+              <div class="skill-title">
+                <span class="skill-index">Kỹ năng 11</span>
+                <h2>Trồng trọt <span class="skill-en">Farming</span></h2>
+              </div>
+              <span class="skill-badge khac">Khác</span>
+            </header>
+            <p class="skill-summary">Cung cấp lương thực và vật phẩm cần thiết.</p>
+            <p class="skill-detail">Trồng trọt cho phép gieo hạt, chăm sóc và thu hoạch lương thực, dược liệu ngay tại trang trại của mình. Đây là nguồn cung ổn định cho nấu ăn, pha chế thuốc và một số vật phẩm thiết yếu khác.</p>
+            <ul class="skill-points">
+              <li>Gieo trồng lúa, rau, trái cây và cây dược liệu.</li>
+              <li>Tưới nước, bón phân và thu hoạch theo mùa.</li>
+              <li>Cung cấp nguyên liệu cho nấu ăn và pha chế.</li>
+              <li>Tạo thu nhập ổn định, ít phụ thuộc chiến đấu.</li>
+            </ul>
+            <div class="skill-facts">
+              <span><b>Nguyên liệu</b> Hạt giống · Phân bón</span>
+              <span><b>Sản phẩm</b> Lương thực · Dược liệu</span>
+              <span><b>Kết hợp</b> Nấu ăn · Pha chế</span>
+            </div>
+          </article>
+
+          <article class="skill-card" id="spellbinding" data-group="khac">
+            <header class="skill-head">
+              <span class="skill-icon" aria-hidden="true">✨</span>
+              <div class="skill-title">
+                <span class="skill-index">Kỹ năng 12</span>
+                <h2>Spellbinding <span class="skill-en">Phù văn</span></h2>
+              </div>
+              <span class="skill-badge khac">Khác</span>
+            </header>
+            <p class="skill-summary">Chế tạo trang bị, thiết bị phép dành cho phù thuỷ.</p>
+            <p class="skill-detail">Spellbinding khắc phù văn và kết tinh năng lượng phép vào trang bị. Nghề này tạo ra gậy phép, pháp khí, trang bị và thiết bị dành riêng cho phù thuỷ, đồng thời nâng cao thuộc tính phép của vật phẩm.</p>
+            <ul class="skill-points">
+              <li>Chế tạo gậy phép, pháp khí và trang bị phép.</li>
+              <li>Khắc phù văn, cường hoá thuộc tính phép.</li>
+              <li>Sử dụng tinh thể, quặng hiếm và da làm nguyên liệu.</li>
+              <li>Nguồn cung trang bị chính cho phù thuỷ.</li>
+            </ul>
+            <div class="skill-facts">
+              <span><b>Nguyên liệu</b> Tinh thể · Quặng hiếm</span>
+              <span><b>Sản phẩm</b> Pháp khí · Trang bị phép</span>
+              <span><b>Kết hợp</b> Khai khoáng · Chế tạo</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <p class="skill-empty" id="skill-empty" hidden>Không tìm thấy kỹ năng phù hợp. Hãy thử từ khoá khác.</p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-brand">MMORPG World</div>
+        <div>Cẩm nang kỹ năng — 3 kĩ năng chính và 9 life skill.</div>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        var searchInput = document.getElementById('skill-search');
+        var cards = Array.prototype.slice.call(document.querySelectorAll('.skill-card'));
+        var groups = Array.prototype.slice.call(document.querySelectorAll('.skill-group'));
+        var buttons = Array.prototype.slice.call(document.querySelectorAll('.chip'));
+        var count = document.getElementById('result-count');
+        var empty = document.getElementById('skill-empty');
+        var activeFilter = 'all';
+        var highlightTimer = null;
+
+        function updateSkills() {
+          var query = searchInput.value.trim().toLocaleLowerCase('vi');
+          var shown = 0;
+          cards.forEach(function (card) {
+            var matchesFilter = activeFilter === 'all' || card.dataset.group === activeFilter;
+            var matchesQuery = card.textContent.toLocaleLowerCase('vi').indexOf(query) !== -1;
+            card.hidden = !(matchesFilter && matchesQuery);
+            if (!card.hidden) shown += 1;
+          });
+          groups.forEach(function (group) {
+            var visible = group.querySelectorAll('.skill-card:not([hidden])').length > 0;
+            group.hidden = !visible;
+          });
+          empty.hidden = shown !== 0;
+          count.textContent = shown + ' kỹ năng';
+        }
+
+        function syncFilterButtons() {
+          buttons.forEach(function (button) {
+            var selected = button.dataset.filter === activeFilter;
+            button.classList.toggle('is-active', selected);
+            button.setAttribute('aria-pressed', String(selected));
+          });
+        }
+
+        function highlightTarget() {
+          if (!location.hash) return;
+          var target;
+          try {
+            target = document.querySelector(location.hash);
+          } catch (error) {
+            return;
+          }
+          if (!target || !target.classList.contains('skill-card')) return;
+          activeFilter = 'all';
+          searchInput.value = '';
+          syncFilterButtons();
+          updateSkills();
+          window.setTimeout(function () {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            target.classList.add('is-highlight');
+            window.clearTimeout(highlightTimer);
+            highlightTimer = window.setTimeout(function () {
+              target.classList.remove('is-highlight');
+            }, 4000);
+          }, 60);
+        }
+
+        searchInput.addEventListener('input', updateSkills);
+        buttons.forEach(function (button) {
+          button.addEventListener('click', function () {
+            activeFilter = button.dataset.filter;
+            syncFilterButtons();
+            updateSkills();
+          });
+        });
+        window.addEventListener('hashchange', highlightTarget);
+        updateSkills();
+        highlightTarget();
+      })();
+    </script>
+</body>
+</html>
