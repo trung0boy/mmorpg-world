@@ -1,0 +1,6 @@
+@Home/MOB\ trong 12 thư mục từ thư mục 2 đến 13, các file *.md
+trong các file đó những chỗ có "prompt:" hãy viết prompt chi tiết tạo nhân vật tương ứng với: 4 góc nhìn trong 1 ảnh :
+	nhìn từ đằng trước.
+	nhìn từ bên phải.
+	nhìn từ bên trái.
+	nhìn từ đằng sau.

@@ -1,7 +1,7 @@
 ````markdown
 # MMORPG World
 
-`mmorpg-world` là dự án game nhập vai trực tuyến nhiều người chơi (MMORPG) 2D. Trò chơi hướng đến thế giới nhiều khu vực, nhân vật và hoạt động tương tác; tài liệu này trình bày định hướng thiết kế và cấu trúc tham khảo cho dự án.
+`mmorpg-world` là dự án game nhập vai trực tuyến nhiều người chơi (MMORPG) 2D (cũng có thể sẽ đổi sang game 3D). Trò chơi hướng đến thế giới nhiều khu vực, nhân vật và hoạt động tương tác; tài liệu này trình bày định hướng thiết kế và cấu trúc tham khảo cho dự án.
 
 ## Mục tiêu dự án
 
