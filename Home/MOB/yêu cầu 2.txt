@@ -1,0 +1,1 @@
+xửa prompt từ thư mục thứ 2 đến 13, khi tạo ảnh có thể phù hợp cho tile 128px
